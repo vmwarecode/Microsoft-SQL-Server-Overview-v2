@@ -1,0 +1,720 @@
+{
+   "dashboards": [{
+      "adapterName": "MicrosoftSQLServer",
+      "autoswitchEnabled": false,
+      "columnCount": 2,
+      "columnProportion": "0.5-0.5",
+      "creationTime": 1603283582030,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "bd5febbc-f625-449c-942e-f2359d5e8073",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1603284367131,
+      "lastUpdateUserId": "ce28a436-007e-4581-a234-9a5ec7b93455",
+      "locked": false,
+      "name": "Custom Dashboards/Microsoft SQL Server Overview v2",
+      "namePath": "Custom Dashboards",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "ce28a436-007e-4581-a234-9a5ec7b93455",
+      "widgetInteractions": [{
+         "type": "resourceId",
+         "widgetIdProvider": "a8a1eb19-4c9b-4268-a37f-7231ca8e8686",
+         "widgetIdReceiver": "eaaced33-a6ca-444e-a072-2608da0a2cff"
+      }],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "maxValue": 100,
+                        "minValue": 0,
+                        "thresholds": {
+                           "colors": [
+                              "#FF0000",
+                              "#FFFF00",
+                              "#00FF00"
+                           ],
+                           "values": [
+                              0,
+                              50,
+                              100
+                           ]
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "badge|health",
+                        "value": "Badge|Health (%)"
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "mode": {"mode": false},
+                     "name": "Health",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": null,
+                        "value": ""
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": null
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "endColor": "FF0000",
+                        "maxValue": "100",
+                        "middleColor": "FFFF00",
+                        "minValue": "0",
+                        "startColor": "00FF00"
+                     },
+                     "colorBy": {
+                        "metricKey": "badge|workload",
+                        "value": "Badge|Workload (%)"
+                     },
+                     "groupBy": {
+                        "id": "012resourceKindnull",
+                        "originalText": "",
+                        "parentId": "otherTypes",
+                        "parentText": "",
+                        "text": "Object Type",
+                        "type": "resourceKind",
+                        "typeId": null
+                     },
+                     "id": "extModel2739-2",
+                     "mode": {"mode": false},
+                     "name": "Workload",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": null,
+                        "value": ""
+                     },
+                     "tagFilter": null,
+                     "thenBy": null
+                  }
+               ],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "MSSQL Instances",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 608,
+            "id": "a8a1eb19-4c9b-4268-a37f-7231ca8e8686",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_bd5febbc-f625-449c-942e-f2359d5e8073_a8a1eb19-4c9b-4268-a37f-7231ca8e8686",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomInBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_a8a1eb19-4c9b-4268-a37f-7231ca8e8686",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_showTextBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_a8a1eb19-4c9b-4268-a37f-7231ca8e8686",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_a8a1eb19-4c9b-4268-a37f-7231ca8e8686",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "MSSQL Instances",
+            "type": "Heatmap",
+            "x": 1,
+            "y": 1
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREDatacenter",
+                     "originalText": "Datacenter",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Datacenter",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:2_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "MSSQL Availability Groups",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 12
+            },
+            "height": 209,
+            "id": "f2e8c61d-8136-4b11-8c95-9bb93b813ae2",
+            "states": [
+               {
+                  "key": "permBtn_zoomInBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_f2e8c61d-8136-4b11-8c95-9bb93b813ae2",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_bd5febbc-f625-449c-942e-f2359d5e8073_f2e8c61d-8136-4b11-8c95-9bb93b813ae2",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_showTextBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_f2e8c61d-8136-4b11-8c95-9bb93b813ae2",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_f2e8c61d-8136-4b11-8c95-9bb93b813ae2",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "MSSQL Availability Groups",
+            "type": "Heatmap",
+            "x": 1,
+            "y": 2
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "customFilter": null,
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002016SqlServerAdapterSqlServer",
+                     "originalText": "Microsoft SQL Server Instance",
+                     "parentId": "SqlServerAdapter",
+                     "parentText": "Microsoft SQL Server",
+                     "text": "Microsoft SQL Server Instance",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:1_::_"
+                  },
+                  "id": "extModel71877-2",
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:3_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "MSSQL Databases",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 4,
+               "x": 9,
+               "y": 16
+            },
+            "height": 608,
+            "id": "18e963e0-30e0-4ac2-b796-20744123673d",
+            "states": [
+               {
+                  "key": "permBtn_showTextBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_18e963e0-30e0-4ac2-b796-20744123673d",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_18e963e0-30e0-4ac2-b796-20744123673d",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_bd5febbc-f625-449c-942e-f2359d5e8073_18e963e0-30e0-4ac2-b796-20744123673d",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomInBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_18e963e0-30e0-4ac2-b796-20744123673d",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "MSSQL Databases",
+            "type": "Heatmap",
+            "x": 2,
+            "y": 1
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002016SqlServerAdapterSqlServer",
+                     "originalText": "Microsoft SQL Server Instance",
+                     "parentId": "SqlServerAdapter",
+                     "parentText": "Microsoft SQL Server",
+                     "text": "Microsoft SQL Server Instance",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:1_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:4_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "MSSQL Wait Types",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 4,
+               "x": 1,
+               "y": 16
+            },
+            "height": 608,
+            "id": "a4348985-c673-414e-b49e-6bb2b0b6ad36",
+            "states": [
+               {
+                  "key": "perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_a4348985-c673-414e-b49e-6bb2b0b6ad36",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_zoomInBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_a4348985-c673-414e-b49e-6bb2b0b6ad36",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_showTextBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_a4348985-c673-414e-b49e-6bb2b0b6ad36",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_bd5febbc-f625-449c-942e-f2359d5e8073_a4348985-c673-414e-b49e-6bb2b0b6ad36",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "MSSQL Wait Types",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002016SqlServerAdapterSqlServer",
+                     "originalText": "Microsoft SQL Server Instance",
+                     "parentId": "SqlServerAdapter",
+                     "parentText": "Microsoft SQL Server",
+                     "text": "Microsoft SQL Server Instance",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:1_::_"
+                  },
+                  "id": "extModel71421-1",
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:5_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "MSSQL Queries",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 4,
+               "x": 5,
+               "y": 16
+            },
+            "height": 608,
+            "id": "ac11d0d7-7ca2-46cd-96b0-1f704479ba4f",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_bd5febbc-f625-449c-942e-f2359d5e8073_ac11d0d7-7ca2-46cd-96b0-1f704479ba4f",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomInBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_ac11d0d7-7ca2-46cd-96b0-1f704479ba4f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_ac11d0d7-7ca2-46cd-96b0-1f704479ba4f",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_showTextBtn_perm_HeatMap_widget_bd5febbc-f625-449c-942e-f2359d5e8073_ac11d0d7-7ca2-46cd-96b0-1f704479ba4f",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "MSSQL Queries",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "state": [],
+               "status": [],
+               "tagFilter": {
+                  "path": [
+                     "/source/kind/kind:resourceKind:id:6_::_",
+                     "/source/kind/kind:resourceKind:id:7_::_",
+                     "/source/kind/kind:resourceKind:id:8_::_",
+                     "/source/kind/kind:resourceKind:id:2_::_",
+                     "/source/kind/kind:resourceKind:id:3_::_",
+                     "/source/kind/kind:resourceKind:id:1_::_",
+                     "/source/kind/kind:resourceKind:id:9_::_",
+                     "/source/kind/kind:resourceKind:id:10_::_",
+                     "/source/kind/kind:resourceKind:id:5_::_",
+                     "/source/kind/kind:resourceKind:id:4_::_",
+                     "/source/kind/kind:resourceKind:id:11_::_"
+                  ],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": [
+                        "resourceKind:id:6_::_",
+                        "resourceKind:id:7_::_",
+                        "resourceKind:id:8_::_",
+                        "resourceKind:id:2_::_",
+                        "resourceKind:id:3_::_",
+                        "resourceKind:id:1_::_",
+                        "resourceKind:id:9_::_",
+                        "resourceKind:id:10_::_",
+                        "resourceKind:id:5_::_",
+                        "resourceKind:id:4_::_",
+                        "resourceKind:id:11_::_"
+                     ],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "MSSQL Alerts",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 608,
+            "id": "8a63e97c-c0bd-443d-b6c5-6b15a2dbb7f8",
+            "states": [
+               {
+                  "key": "permAlertGrid_perm_widget_bd5febbc-f625-449c-942e-f2359d5e8073_8a63e97c-c0bd-443d-b6c5-6b15a2dbb7f8",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               },
+               {
+                  "key": "permViewMode_widget_bd5febbc-f625-449c-942e-f2359d5e8073_8a63e97c-c0bd-443d-b6c5-6b15a2dbb7f8",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_bd5febbc-f625-449c-942e-f2359d5e8073_8a63e97c-c0bd-443d-b6c5-6b15a2dbb7f8",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "MSSQL Alerts",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoZoom": {"autoSize": false},
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "filterMode": "tagPicker",
+               "nodeSize": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Object Relationship (for selected Instance)"
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 608,
+            "id": "eaaced33-a6ca-444e-a072-2608da0a2cff",
+            "title": "Object Relationship (for selected Instance)",
+            "type": "ResourceRelationship"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "microsoft_sql_server_wait_time"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:7_::_",
+         "resourceKindKey": "mssql"
+      },
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:6_::_",
+         "resourceKindKey": "sql_server_traversal_tag"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Datacenter"
+      },
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "SqlAvailabilityGroup"
+      },
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:10_::_",
+         "resourceKindKey": "microsoft_sql_server_job"
+      },
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "SqlServer"
+      },
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "SqlDatabase"
+      },
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:11_::_",
+         "resourceKindKey": "SqlServerTag"
+      },
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:5_::_",
+         "resourceKindKey": "SqlQuery"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:9_::_",
+         "resourceKindKey": "mssql_database"
+      },
+      {
+         "adapterKindKey": "SqlServerAdapter",
+         "internalId": "resourceKind:id:8_::_",
+         "resourceKindKey": "SqlServerAdapterInstance"
+      }
+   ]},
+   "uuid": "b76b29cf-f70f-4519-9625-8e4de1bde52f"
+}
